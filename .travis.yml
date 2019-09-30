@@ -1,0 +1,7 @@
+language: go
+
+install:
+  - go get -d -v ./src
+
+script:
+  - go build -v ./src/
